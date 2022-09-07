@@ -1,3 +1,9 @@
-<header class="d-sm-flex flex-row justify-content-between container-fluid">
-    <h1>{{title}}</h1>
+<header class="d-sm-flex flex-row justify-content-between container-fluid align-items-center">
+    <div class="p-2"><h1>{{title}}</h1></div>
+    <div class="p-2">
+        <app-button 
+        buttonType="btn-success" 
+        text="Add task"
+        (btnClick)="toggleAddTask()"
+        ></app-button></div>
 </header>

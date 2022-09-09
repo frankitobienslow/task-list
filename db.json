@@ -1,0 +1,39 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "title": "Ir al super",
+            "date": "8 de septiembre",
+            "hour": "18:00",
+            "reminder": false
+        },
+        {
+            "id": 2,
+            "title": "Examen matematica",
+            "date": "28 de septiembre",
+            "hour": "08:00",
+            "reminder": true
+        },
+        {
+            "id": 3,
+            "title": "Cumple cata",
+            "date": "10 de septiembre",
+            "hour": "21:00",
+            "reminder": true
+        },
+        {
+            "id": 4,
+            "title": "Terminar proyecto final",
+            "date": "6 de enero",
+            "hour": "23:59",
+            "reminder": true
+        },
+        {
+            "id": 5,
+            "title": "Toca bardero$",
+            "date": "26 de noviembre",
+            "hour": "20:00",
+            "reminder": true
+        }
+    ]
+}

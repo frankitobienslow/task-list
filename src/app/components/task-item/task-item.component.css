@@ -1,17 +1,28 @@
-.task{
-    margin:10px;
+.task {
+    margin: 10px;
 }
+
 /*.taskAside{
 
 }*/
-.x{
-    color:rgb(199, 0, 0);
-    cursor:pointer;
+.x {
+    color: rgb(199, 0, 0);
+    cursor: pointer;
 }
-.x:hover{
-    color:red;
+
+.x:hover {
+    color: red;
 }
-.task.reminder{
-    border: solid, 2px;
-    border-color: rgb(red);
+
+.clock {
+    color: rgb(167, 167, 167);
+    cursor: pointer;
+}
+
+.clock:hover {
+    color: rgb(104, 144, 218);
+}
+
+.clock.reminder {
+    color: rgb(18, 83, 168);
 }

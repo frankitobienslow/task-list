@@ -1,0 +1,8 @@
+.task{
+    margin:10px;
+    cursor:pointer;
+}
+.task.reminder{
+    border: solid, 2px;
+    border-color: rgb(red);
+}

@@ -1,6 +1,15 @@
 .task{
     margin:10px;
+}
+.taskAside{
+
+}
+.x{
+    color:rgb(199, 0, 0);
     cursor:pointer;
+}
+.x:hover{
+    color:red;
 }
 .task.reminder{
     border: solid, 2px;

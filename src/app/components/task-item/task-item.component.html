@@ -4,5 +4,9 @@
         <p class="card-subtitle">{{task.date}} <br>
                                 {{task.hour}}</p>
     </div>
-    <div class="p-2 taskAside"><fa-icon [icon]="faTimes" class="x"></fa-icon></div>
+    <div class="p-2 taskAside">
+        <fa-icon [icon]="faTimes"
+                 class="x"
+                (click)="onDelete(task)"
+        ></fa-icon></div>
 </div>

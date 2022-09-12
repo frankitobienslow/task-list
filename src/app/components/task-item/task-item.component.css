@@ -1,5 +1,7 @@
 .task {
-    margin: 10px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.541);
+    color:rgb(0, 0, 0);
 }
 
 /*.taskAside{

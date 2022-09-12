@@ -1,3 +1,8 @@
 .maxWidth{
     width: 100%;
 }
+.form-body{
+    padding: 10px;
+background-color: rgba(25, 216, 0, 0.452);
+border-radius: 6px;
+}

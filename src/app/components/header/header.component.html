@@ -5,5 +5,6 @@
         buttonType="{{showAddTask ? 'btn-secondary' : 'btn-success'}}"
         text="{{showAddTask ? 'Close' : 'Add task'}}"
         (btnClick)="toggleAddTask()"
+        *ngIf="hasRoute('/')"
         ></app-button></div>
 </header>
